@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background-color: #212529;
+}
+
+.select-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 48px;
+}
+
+.input {
+    width: 209px;
+    padding: 12px;
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+select {
+    width: 209px;
+    padding: 12px;
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+    color: black;
+    font-size: 15px;
+}
+
+.search {
+    width: 211px;
+    background-color: #198754;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 11px;
+    color: white;
+}
+
+.img {
+    text-align: center;
+    margin-top: 106px;
+}
+
+.all-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.card {
+    width: 250px;
+    padding: 30px 0px;
+    background-color: #FFFF00;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.id-raqami {
+    width: 36px;
+    padding: 9px;
+    color: white;
+    font-weight: bold;
+    border-top-right-radius: 10px;
+    text-align: center;
+    background-color: red;
+    position: relative;
+    left: 107px;
+    bottom: 30px;
+}
+
+.id {
+    font-size: 15px;
+}
+
+
+
+.nomi {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.qanaqaligi {
+    font-size: 20px;
+    width: 129px;
+    padding: 5px;
+    background-color: #C4E4FF;
+    border-radius: 20px;
+    color: black;
+    text-align: center;
+}
+
+.obrosi {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.ogirligi {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.turi{
+    font-size: 14px;
+    color: #80007C;
+    font-weight: bold;
+}
+
+.vaqti{
+    color: black;
+    width: 50px;
+    padding: 9px;
+    font-weight: bold;
+    background-color: #00FFFF;
+    border-bottom-left-radius: 10px;
+    position: relative;
+    top: 30px;
+    right: 100px;
+}
